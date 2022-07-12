@@ -63,7 +63,8 @@ li {
 
 }
 
-.but-1 {
+.but-1,
+.but-2 {
     background-color: #3882F6;
     color: white;
     border-radius: 5px;
@@ -140,4 +141,38 @@ img.love-pic {
     justify-content: center;
     align-items: center;
     padding: 50px 100px;
+}
+
+.fourth {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px 80px;
+}
+
+.action-container {
+    background-color: #3882F6;
+    display: flex;
+    padding: 20px 200px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sign-up {
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.coupons {
+    color: white;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
 }
