@@ -39,13 +39,20 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 80px;
+    padding-bottom: 50px;
+}
+
+.chicken-gif {
+    height: 150px;
+    width: auto;
 }
 
 .left-block {
     display: flex;
     flex-direction: column;
     color: white;
-    row-gap: 20px;
+    row-gap: 5px;
 }
 
 .right-block {
@@ -77,10 +84,6 @@ li {
    align-items: center;
 }
 
-img {
-    width: 300px;
-}
-
 .information-blocks {
     display: flex;
     gap: 20px;
@@ -92,6 +95,12 @@ img {
 .info-4 {
     display: flex;
     flex-direction: column;
+  align-items: center;
+    vertical-align: top;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 150px;
 }
 
 .information-header {
@@ -100,4 +109,12 @@ img {
     color: #1F2937;
     margin-bottom: 30px;
     margin-top: 30px;
+}
+
+img.love-pic {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid blue;
+    border-radius: 20%;
 }
