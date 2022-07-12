@@ -40,7 +40,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 100px;
     padding-bottom: 50px;
 }
 
@@ -53,7 +53,7 @@ li {
     display: flex;
     flex-direction: column;
     color: white;
-    row-gap: 5px;
+    row-gap: 15px;
 }
 
 .right-block {
@@ -175,4 +175,18 @@ img.love-pic {
     flex-direction: column;
     justify-content: center;
     margin-right: 30px;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: white;
+    font-size: small;
 }
